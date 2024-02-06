@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css">
     <title>OmniFood</title>
   </head>
   <body>
@@ -19,13 +20,17 @@
       <a href="#"><img class="logo" src="img/omnifood-logo.png" alt="image of the logo" /></a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Section 1</a></li>
+          <li><a href="#" class="main-nav-link">How it Works</a></li>
+          <li><a href="#" class="main-nav-link">Meals</a></li>
+          <li><a href="#" class="main-nav-link">Testimonial</a></li>
+          <li><a href="#" class="main-nav-link">Pricing</a></li>
+          <li><a href="#" class="main-nav-link nav-cta">Try it for Free</a></li>
         </ul>
       </nav>
+      <btn class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </btn>
     </header>
     <section class="Section-hero">
       <div class="hero">
@@ -463,12 +468,49 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="ciontainer grid grid--5--columns">
-        <div class="logo-col">logo</div>
-        <div class="address-col">address</div>
-        <div class="nav-col">nav1</div>
-        <div class="nav-col">nav2</div>
-        <div class="nav-col">nav3</div>
+      <div class="container grid grid-footer">
+        <div class="logo-col"><a href="#"><img class="logo" src="img/omnifood-logo.png" alt="image of the logo" /></a>
+          <ul class="social-links">
+            <li><a href="#" class="footer-link"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#" class="footer-link"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#" class="footer-link"s><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+          </ul>
+          <p class="copyright" >copyright &copy; 2027 by OmniFood Inc. ALl right</p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p><a href="tel:415-201-6370" class="footer-link">415-201-6370</a></p>
+            <p><a href="mailto:hello@omnifood.com" class="footer-link">hello@omnifood.com</a></p>
+          </address>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Create account</a></li>
+            <li><a href="#" class="footer-link">Sign in</a></li>
+            <li><a href="#" class="footer-link">iOS app</a></li>
+            <li><a href="#" class="footer-link">Android app</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">company</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">About omnifood</a></li>
+            <li><a href="#" class="footer-link">For business</a></li>
+            <li><a href="#" class="footer-link">Cooking partner</a></li>
+            <li><a href="#" class="footer-link">careers</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Recipe Directory</a></li>
+            <li><a href="#" class="footer-link">Help center</a></li>
+            <li><a href="#" class="footer-link">Privacy & terms</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
     <script
